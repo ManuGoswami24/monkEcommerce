@@ -1,6 +1,7 @@
 package com.manugoswami.monk.service;
 
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.manugoswami.monk.dto.ApplicableCouponDto;
 import com.manugoswami.monk.dto.CartDto;
 import com.manugoswami.monk.dto.CartItemDto;
@@ -13,7 +14,6 @@ import com.manugoswami.monk.repository.CouponRepository;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.web.server.ResponseStatusException;
-import tools.jackson.databind.ObjectMapper;
 
 import java.math.BigDecimal;
 import java.time.Instant;
